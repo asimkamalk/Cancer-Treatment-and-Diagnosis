@@ -30,8 +30,8 @@ const Sidebar = () => {
   return (
     <div className="sticky top-5 flex h-[93vh] flex-col items-center justify-between">
       <Link to="/">
-        <div className="rounded-[10px] bg-[2c2f32] p-2">
-          <IconHeartHandshake size={40} color="#1ec070" className=" " />
+        <div className="rounded-[10px] border border-gray-500 bg-[2c2f32] p-2">
+          <IconHeartHandshake size={40} color="#1ec070" className="" />
         </div>
       </Link>
 
