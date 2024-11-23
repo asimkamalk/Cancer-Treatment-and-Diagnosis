@@ -30,7 +30,7 @@ const Navbar = () => {
         />
 
         {/* Search Button inside Search Bar */}
-        <div className="flex h-[56px] w-[56px] cursor-pointer items-center justify-center rounded-full bg-[#4acd8d]">
+        <div className="flex h-full w-[72px] cursor-pointer items-center justify-center rounded-[20px] bg-[#4acd8d]">
           <img
             src={search}
             alt="search"
